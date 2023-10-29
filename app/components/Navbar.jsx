@@ -15,11 +15,11 @@ const Navbar = () => {
   return (
     <>
     <div className="w-full fixed shadow-2xl z-30 bg-slate-900">
-      <div className="flex justify-between h-20 items-center ">
-        <div className="ml-10 lg:ml-28 text-white">
-          <Link href="/"><Image src={logo} className="w-36 md:w-44 lg:w-52"/></Link>
+      <div className="flex justify-between h-16 items-center ">
+        <div className="lg:ml-28 text-white">
+          <Link href="/"><Image src={logo} className="w-36 md:w-44 lg:w-48"/></Link>
         </div>
-        <div className=" mr-16 lg:mr-28 ">
+        <div className="mr-8 lg:mr-28 ">
           <div className="gap-8 lg:gap-12 hidden md:flex text-white">
             <Link href="/">Home</Link>
             <Link href="/#about">About</Link>
@@ -44,7 +44,7 @@ const Navbar = () => {
           <div className="border-b border-gray-400 pl-6 mt-8">
             <p className="mb-2 text-white ">Hey Buddy Welcome</p>
           </div>
-          <div className="flex flex-col mt-28 gap-16  text-white justify-center items-center text-2xl ">
+          <div className="flex flex-col my-20 md:mt-24 gap-12 md:gap-16  text-white justify-center items-center text-2xl ">
             <Link className="hover:underline" onClick={()=>setNavbar(false)} href="/">Home</Link>
             <Link className="hover:underline" onClick={()=>setNavbar(false)} href="/#about">About</Link>
             <Link className="hover:underline" onClick={()=>setNavbar(false)} href="/#skills">Skills</Link>

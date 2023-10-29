@@ -21,11 +21,11 @@ import SkillsCard from "./SkillCard";
 
 const Skills = () => {
   return (
-    <div id='skills' className="w-full md:h-screen py-16 pt-16 lg:pt-32 lg:snap-start">
+    <div id='skills' className="w-full md:h-screen py-16 pt-16 lg:pt-48 lg:snap-start">
       <div className="flex flex-col justify-center h-full max-w-[1480px] mx-auto px-2 py-8 ">
         <p className="text-cyan-600 text-xl">SKILLS</p>
         <h2 className="py-4">What I Can Do</h2>
-        <div className="w-full mt-8 md:mt-12 lg:mt-16 grid gap-6 md:gap-8  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
+        <div className="w-full mt-8 md:mt-12 lg:mt-10 grid gap-x-4 gap-y-4 md:gap-y-0 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
           <SkillsCard image={html} name="HTML" />
           <SkillsCard image={css} name="CSS" />
           <SkillsCard image={javascript} name="JAVASCRIPT" />
