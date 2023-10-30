@@ -50,7 +50,7 @@ const Contact = () => {
     <>
       <div
         id="contact"
-        className="w-full  mb-6 mt-16 sm:mt-64  lg:mt-16 md:pt-4 mx-auto pt-8 lg:snap-start"
+        className="w-full  mb-6 mt-16 sm:mt-72   lg:mt-16 md:pt-4 mx-auto pt-8 lg:snap-start"
       >
         <div className="text-center max-w-[1480px] mx-auto px-2 pt-16 mb-4 md:mb-0">
           <p className="text-sky-500 sm:mb-4 md:mb-2 text-xl">CONTACT</p>
